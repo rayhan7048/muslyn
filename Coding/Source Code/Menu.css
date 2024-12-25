@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global style */
+* {
+   font-family: 'Poppins', sans-serif;
+   margin:0;
+   padding: 0;
+}
+
+
+ /* Header Styles */
+
+ header {
+
+    z-index: 1000;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    padding: 30px 5%;
+}
+.logo{
+    width: 160px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+li, a, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    color: #800037;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+.nav-links li{             /*make nav in line from vartical and remove lists for desptop not for mobile*/
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: bisque;
+}
+/*---------to make menu right-style use this---and remove "header" and "logo"------
+header {
+
+    z-index: 1000;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    padding: 30px 5%;
+}
+.logo{
+    width: 160px;
+    height: auto;
+    cursor: pointer;
+    margin-right: auto;
+}
+.cart-icon {
+    margin-left: 50px;
+}
+.wishlist-icon {
+    margin-left: 20px;
+}----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

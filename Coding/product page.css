@@ -1,0 +1,106 @@
+/* Global style */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding: 0;
+}
+header {
+    z-index: 1000;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.logo{
+    width: 160px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 50px;
+    padding-right: 310px;
+
+}
+
+li, a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    color: #800037;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li{             /*make nav in line from vartical and remove lists for desptop not for mobile*/
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: bisque;
+}
+
+.cart-icon {
+    margin-left: 300px;
+}
+
+.wishlist-icon {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+/*----------------footer--------------*/
+.footer{
+    background: #eafdebfa;
+    color: black;
+    font-size: smaller;
+    padding: 50px 0px 20px;
+}
+.footer p{
+    color: black;
+}
+.footer h3{
+    font-size: larger;
+    color: black;
+    margin-bottom: 30px;
+}
+ul{
+    list-style-type: none;
+}
+.copyright {
+     text-align: left;
+     margin: 10px 10px 0;
+     color: #ca2230;
+}
+.footer-col-1, .footer-col-2, .footer-col-4{
+    min-width: 300px;
+    margin-bottom: 15px;
+}
+.footer-col-3{
+    min-width: 300px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

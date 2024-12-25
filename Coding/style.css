@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global style */
+* {
+   font-family: 'Poppins', sans-serif;
+   margin:0;
+   padding: 0;
+}
+/*-------for
+.adds {
+    background-color: #e5e5e5;
+    margin-top: 0px;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+justify-items: left;
+}
+.adds p {
+    color: #ff0000;
+}--------*/
+
+ /* -------Menu=header Styles start------*/
+
+ header {
+    z-index: 1000;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.logo{
+    width: 160px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 50px;
+    padding-right: 310px;
+
+}
+
+li, a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: x-large;
+    color: #800037;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li{             /*make nav in line from vartical and remove lists for desptop not for mobile*/
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: bisque;
+}
+
+.cart-icon {
+    margin-left: 300px;
+}
+
+.wishlist-icon {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+/*---------Hero Start----------*/ 
+.hero{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-video {
+    z-index: -5;
+    position: absolute;
+    justify-items: center;
+    transform: translateX(-50%);
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    padding-top: 350px;
+    font-size: 130px;
+    color: #800037;
+    position: relative;
+}
+
+.hero a {
+    text-decoration: none;
+    display: inline-block;
+    color: #3c8000;
+    font-size: 30px;
+    border: 4px solid #3c8000;
+    padding: 0px 50px;
+    border-radius: 30px;
+    margin-top: 0px;
+    cursor: pointer; 
+    position: relative; 
+}
+.new-products h1{
+    margin-top: 250px;
+    text-align: center;
+    font-size: xx-large;
+
+
+}
+.new-products img{
+    width: 100%;
+    height: auto;
+    
+
+}
+.container {
+    vertical-align: middle;
+
+
+}
+.btn{
+    text-decoration: none;
+    color: #3c8000;
+    font-size: 30px;
+    border: 4px solid #3c8000;
+    padding: 1px 50px;
+    border-radius: 30px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    cursor: pointer; 
+
+
+
+
+
+}
+
+/*---------to make menu right-style use this---and remove "header" and "logo"------
+header {
+
+    z-index: 1000;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    padding: 30px 5%;
+}
+.logo{
+    width: 160px;
+    height: auto;
+    cursor: pointer;
+    margin-right: auto;
+}
+.cart-icon {
+    margin-left: 50px;
+}
+.wishlist-icon {
+    margin-left: 20px;
+}----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
